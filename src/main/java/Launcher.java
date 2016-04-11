@@ -6,7 +6,7 @@ public class Launcher extends CPlugin {
     }
 
     public void execute() {
-
+        System.out.println("Executing Skeleton Plugin");
     }
 
     @Override
