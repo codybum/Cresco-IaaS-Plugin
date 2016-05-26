@@ -1,5 +1,3 @@
-package com.researchworx.cresco.plugins.skeleton;
-
 import com.google.auto.service.AutoService;
 import com.researchworx.cresco.library.plugin.core.CPlugin;
 
