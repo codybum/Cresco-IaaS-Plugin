@@ -5,15 +5,15 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.researchworx.cresco</groupId>
-	<artifactId>cresco-skeleton-plugin</artifactId>
+	<artifactId>cresco-iaas-plugin</artifactId>
 	<version>0.1.0</version>
 	<packaging>jar</packaging>
 
-	<name>Cresco Plugin Skeleton</name>
-	<description>Plugin skeleton for the Cresco Agent</description>
-	<url>https://github.com/ResearchWorx/Cresco-Skeleton-Plugin</url>
+	<name>Cresco Plugin IaaS</name>
+	<description>Plugin IaaS for the Cresco Agent</description>
+	<url>https://github.com/ResearchWorx/Cresco-IaaS-Plugin</url>
 	<scm>
-		<connection>scm:git:git://github.com/researchworx/Cresco-Skeleton-Plugin.git</connection>
+		<connection>scm:git:git://github.com/researchworx/Cresco-IaaS-Plugin.git</connection>
 	</scm>
 
 	<properties>
@@ -65,7 +65,7 @@
 				<configuration>
 					<archive>
 						<manifestEntries>
-							<artifactId>cresco-skeleton-plugin</artifactId>
+							<artifactId>cresco-iaas-plugin</artifactId>
 							<Implementation-Version>${project.version}.${buildNumber}.${maven.build.timestamp}</Implementation-Version>
 						</manifestEntries>
 					</archive>
